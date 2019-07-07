@@ -31,29 +31,55 @@
   }
 }
 
-:root {
-  webkit-font-smoothing: antialiased;
+/* fonts */
+@font-face {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 500;
+  src: url('/fonts/Montserrat-Medium.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 400;
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourseSansPro-Regular';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 400;
+  src: url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+:root {
   /* colors */
   --color-primary: #ffd2f0;
   --color-text-primary: #2f262a;
 
   /* fonts */
-  --fontFamily: 'Open Sans', sans-serif;
-  --fontFamily-bold: 'Montserrat', 'Helvetica Neue', sans-serif;
+  --fontFamily: 'SourseSansPro-Regular', sans-serif;
+  --fontFamily-header-medium: 'Montserrat-Medium', 'Helvetica Neue', sans-serif;
+  --fontFamily-header-regular: 'Montserrat-Regular', 'Helvetica Neue', sans-serif;
 
   --header-font-size: calc(52px + 20 * ((100vw - 320px) / 960));
   --author-font-size: calc(22px + 14 * ((100vw - 320px) / 960));
   --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
   --text-font-size: 18px;
 
-  --header: 500 var(--header-font-size) / 1 var(--fontFamily-bold);
-  --author: 400 var(--author-font-size) / 1 var(--fontFamily-bold);
-  --subheader: 400 var(--subheader-font-size) / 1 var(--fontFamily-bold);
-  --text: 400 var(--text-font-size) / 1.5 var(--fontFamily);
+  --header: var(--header-font-size) / 1 var(--fontFamily-header-medium);
+  --author: var(--author-font-size) / 1 var(--fontFamily-header-regular);
+  --subheader: var(--subheader-font-size) / 1 var(--fontFamily-header-regular);
+  --text: var(--text-font-size) / 1.5 var(--fontFamily);
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+  
   margin: 0;
   & h1,
   & h2,
@@ -86,7 +112,7 @@ body {
 
 @define-mixin header {
   font: var(--header);
-
+  
   @media (--largeUp) {
     font-size: 72px;
   }
