@@ -1,0 +1,8 @@
+.header__title {
+  margin-block-end: 8px;
+  @mixin header;
+}
+
+.header__author {
+  @mixin author;
+}

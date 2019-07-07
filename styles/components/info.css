@@ -1,7 +1,7 @@
 .info {
   padding-inline-start: 24px;
   padding-inline-end: 24px;
-  padding-block-start: 64px;
+  padding-block-start: 32px;
   padding-block-end: 24px;
   display: flex;
   flex-direction: column;

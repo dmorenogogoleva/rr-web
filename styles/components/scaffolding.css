@@ -1,3 +1,34 @@
+/* medias */
+@custom-media --xxlargeDown (max-width: 1280px);
+@custom-media --xlargeDown (max-width: 1200px);
+@custom-media --largeDown (max-width: 1024px);
+@custom-media --mediumDown (max-width: 800px);
+@custom-media --smallDown (max-width: 500px);
+
+@custom-media --largeUp (min-width: 1280px);
+
+:root {
+  webkit-font-smoothing: antialiased;
+
+  /* colors */
+  --color-primary: #FFD2F0;
+  --color-text-primary: #2f262a;
+
+  /* fonts */
+  --fontFamily: 'Open Sans', sans-serif;
+  --fontFamily-bold: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+  --header-font-size: calc(52px + 20 * ((100vw - 320px) / 960));
+  --author-font-size: calc(22px + 14 * ((100vw - 320px) / 960));
+  --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
+  --text-font-size: 18px;
+
+  --header: 500 var(--header-font-size) / 1  var(--fontFamily-bold); 
+  --author: 400 var(--author-font-size) / 1  var(--fontFamily-bold); 
+  --subheader: 400 var(--subheader-font-size) / 1  var(--fontFamily-bold); 
+  --text: 400 var(--text-font-size) / 1.5 var(--fontFamily)
+}
+
 body {
   margin: 0;
   & h1,
@@ -15,4 +46,35 @@ body {
     list-style: none;
   }
 
+  font: var(--text);
+  color: var(--color-text-primary);
 }
+
+::selection {
+  background-color: var(--color-primary);
+}
+
+@define-mixin header {
+  font: var(--header);
+
+  @media (--largeUp) {
+    font-size: 72px;
+  }
+}
+
+@define-mixin author {
+  font: var(--author);
+
+  @media (--largeUp) {
+    font-size: 36px;
+  }
+}
+
+@define-mixin subheader {
+  text-transform: lowercase;
+  font: var(--subheader);
+  @media (--largeUp) {
+    font-size: 48px;
+  }
+}
+

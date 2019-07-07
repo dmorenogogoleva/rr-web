@@ -1,3 +1,8 @@
 .text {
   flex-basis: 50%;
+  overflow: scroll;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
 }
+
+.text::-webkit-scrollbar { width: 0 !important }

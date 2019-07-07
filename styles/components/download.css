@@ -1,0 +1,49 @@
+.download {
+  margin-block-start: auto;
+}
+
+.download__title {
+  @mixin subheader;
+  margin-block-end: 16px;
+}
+
+.download__list {
+  display: flex;
+}
+
+.download__item {
+  @mixin subheader;
+  margin-inline-end: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 32px);
+    height: 100%;
+    bottom: 0;
+    left: -16px;
+  }
+
+  &::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: var(--color-primary);
+    transition-timing-function: ease-in;
+    transition: height 0.07s;
+    border-radius: 3px;
+  }
+
+  &:hover {
+    &::after {
+      height: calc(100% + 4px);
+    }
+  }
+}
