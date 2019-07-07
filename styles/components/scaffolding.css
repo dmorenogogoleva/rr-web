@@ -7,11 +7,35 @@
 
 @custom-media --largeUp (min-width: 1280px);
 
+@define-mixin link-decoration {
+  position: relative;
+
+  &::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: var(--color-primary);
+    transition-timing-function: ease-in;
+    transition: height 0.07s;
+    border-radius: 3px;
+  }
+
+  &:hover {
+    &::after {
+      height: calc(100% + 4px);
+    }
+  }
+}
+
 :root {
   webkit-font-smoothing: antialiased;
 
   /* colors */
-  --color-primary: #FFD2F0;
+  --color-primary: #ffd2f0;
   --color-text-primary: #2f262a;
 
   /* fonts */
@@ -23,10 +47,10 @@
   --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
   --text-font-size: 18px;
 
-  --header: 500 var(--header-font-size) / 1  var(--fontFamily-bold); 
-  --author: 400 var(--author-font-size) / 1  var(--fontFamily-bold); 
-  --subheader: 400 var(--subheader-font-size) / 1  var(--fontFamily-bold); 
-  --text: 400 var(--text-font-size) / 1.5 var(--fontFamily)
+  --header: 500 var(--header-font-size) / 1 var(--fontFamily-bold);
+  --author: 400 var(--author-font-size) / 1 var(--fontFamily-bold);
+  --subheader: 400 var(--subheader-font-size) / 1 var(--fontFamily-bold);
+  --text: 400 var(--text-font-size) / 1.5 var(--fontFamily);
 }
 
 body {
@@ -44,6 +68,12 @@ body {
     margin: 0;
     padding-inline-start: 0;
     list-style: none;
+  }
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+    @mixin link-decoration;
   }
 
   font: var(--text);
@@ -77,4 +107,3 @@ body {
     font-size: 48px;
   }
 }
-
