@@ -1,7 +1,7 @@
 .text {
   width: 50%;
   padding: 24px 24px 0 24px;
-  margin-block-end: -24px;
+  margin-bottom: -24px;
   position: relative;
   z-index: 5;
   background-color: #fff;

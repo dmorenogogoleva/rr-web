@@ -1,7 +1,7 @@
 @import-normalize;
-@import './components/scaffolding.css';
-@import './components/page.css';
-@import './components/info.css';
-@import './components/text.css';
-@import './components/header.css';
-@import './components/download.css';
+@parcel-import './components/scaffolding.css';
+@parcel-import './components/page.css';
+@parcel-import './components/info.css';
+@parcel-import './components/text.css';
+@parcel-import './components/header.css';
+@parcel-import './components/download.css';

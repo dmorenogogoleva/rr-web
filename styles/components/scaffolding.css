@@ -96,7 +96,7 @@ body {
 
   & ul {
     margin: 0;
-    padding-inline-start: 0;
+    padding-top: 0;
     list-style: none;
   }
 

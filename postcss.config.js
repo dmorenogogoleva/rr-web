@@ -1,8 +1,12 @@
 module.exports = {
   plugins: [
-    require('postcss-normalize'),
     require('autoprefixer'),
-    require('postcss-nesting'),
+    require('postcss-parcel-import'),
+    require('postcss-normalize'),
     require('postcss-mixins'),
+    require('postcss-nesting'),
+    require('postcss-preset-env'),
+    require('postcss-custom-media'),
   ]
 }
+

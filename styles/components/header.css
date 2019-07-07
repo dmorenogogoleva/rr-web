@@ -4,7 +4,7 @@
 
 .header__title {
   @mixin header;
-  margin-block-end: 8px;
+  margin-bottom: 8px;
   position: relative;
 }
 

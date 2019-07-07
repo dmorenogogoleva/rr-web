@@ -1,11 +1,11 @@
 .download {
-  margin-block-start: auto;
+  margin-top: auto;
   z-index: 3;
 }
 
 .download__title {
   @mixin subheader;
-  margin-block-end: 16px;
+  margin-bottom: 16px;
 }
 
 .download__list {
@@ -14,7 +14,7 @@
 
 .download__item {
   @mixin subheader;
-  margin-inline-end: 16px;
+  margin-right: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
   position: relative;

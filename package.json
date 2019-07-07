@@ -12,12 +12,15 @@
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "cssnano": "^4.1.10",
+    "postcss-custom-media": "^7.0.8",
     "postcss-import": "^12.0.1",
     "postcss-mixins": "^6.2.1",
     "postcss-nesting": "^7.0.0",
-    "postcss-normalize": "^8.0.1"
+    "postcss-normalize": "^8.0.1",
+    "postcss-preset-env": "^6.6.0"
   },
   "dependencies": {
+    "postcss-parcel-import": "^0.0.2",
     "split.js": "^1.5.11"
   }
 }
