@@ -16,5 +16,8 @@
     "postcss-mixins": "^6.2.1",
     "postcss-nesting": "^7.0.0",
     "postcss-normalize": "^8.0.1"
+  },
+  "dependencies": {
+    "split.js": "^1.5.11"
   }
 }

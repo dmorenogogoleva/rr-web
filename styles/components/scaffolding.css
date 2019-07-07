@@ -79,8 +79,12 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  
   margin: 0;
+
+  & * {
+    box-sizing: border-box;
+  }
+
   & h1,
   & h2,
   & h3,
