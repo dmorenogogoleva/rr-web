@@ -1,5 +1,6 @@
 .download {
   margin-block-start: auto;
+  z-index: 3;
 }
 
 .download__title {

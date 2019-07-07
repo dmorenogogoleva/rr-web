@@ -1,6 +1,11 @@
+.header {
+  z-index: 3;
+}
+
 .header__title {
-  margin-block-end: 8px;
   @mixin header;
+  margin-block-end: 8px;
+  position: relative;
 }
 
 .header__author {
