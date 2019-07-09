@@ -1,0 +1,8 @@
+/* medias */
+@custom-media --xxlargeDown (max-width: 1280px);
+@custom-media --xlargeDown (max-width: 1200px);
+@custom-media --largeDown (max-width: 1024px);
+@custom-media --mediumDown (max-width: 800px);
+@custom-media --smallDown (max-width: 500px);
+
+@custom-media --largeUp (min-width: 1280px);

@@ -1,5 +1,10 @@
 @import-normalize;
-@parcel-import './components/scaffolding.css';
+@parcel-import './scaffolding/colors.css';
+@parcel-import './scaffolding/media.css';
+@parcel-import './scaffolding/fonts.css';
+@parcel-import './scaffolding/mixins.css';
+@parcel-import './scaffolding/scaffolding.css';
+
 @parcel-import './components/page.css';
 @parcel-import './components/info.css';
 @parcel-import './components/text.css';
