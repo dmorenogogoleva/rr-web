@@ -4,8 +4,10 @@
 @import './scaffolding/fonts.css';
 @import './scaffolding/scaffolding.css';
 
-@import './components/page.css';
+
+@import '../layout/layout.css'
+/* @import './components/page.css';
 @import './components/info.css';
 @import './components/text.css';
 @import './components/header.css';
-@import './components/download.css';
+@import './components/download.css'; */
