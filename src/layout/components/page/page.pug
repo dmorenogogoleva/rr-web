@@ -1,0 +1,17 @@
+include ./../header/header.pug
+
+mixin page
+  doctype html
+  html(lang="ru")
+    head
+      meta(name="viewport", content="width=device-width, initial-scale=1")
+      meta(charset="utf-8")
+      meta(theme-color="#FFD2F0")
+      meta(msapplication-TileColor="#FFD2F0")
+      link(rel="icon" type="image/png" sizes="32x32" href="./../icons/favicon-32x32.png")
+      title Рахрейтен
+      link(rel="stylesheet", href="./../styles/main.css")
+    body
+      main.page
+        +header()
+        

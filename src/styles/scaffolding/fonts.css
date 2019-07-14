@@ -4,7 +4,7 @@
   font-style: normal;
   font-display: fallback;
   font-weight: 500;
-  src: url('/fonts/Montserrat-Medium.ttf') format('truetype');
+  src: url('./../../fonts/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -12,7 +12,8 @@
   font-style: normal;
   font-display: fallback;
   font-weight: 400;
-  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  src: url('./../../fonts/Montserrat-Regular.ttf') format('truetype');
+
 }
 
 @font-face {
@@ -20,7 +21,7 @@
   font-style: normal;
   font-display: fallback;
   font-weight: 400;
-  src: url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  src: url('./../../fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
 
