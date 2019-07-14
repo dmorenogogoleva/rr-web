@@ -11,10 +11,22 @@
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
 
-  @media (--smallDown) {
+  @media (--largeDown) {
     width: 100% !important;
+  }
+  
+  @media (--smallDown) {
     padding: 16px 12px;
   }
 }
 
 .text::-webkit-scrollbar { width: 0 !important }
+
+.text__paragraph {
+  text-align: justify;
+
+  @media (--largeDown) {
+    max-width: 800px;
+    margin-left: auto;
+  }
+}

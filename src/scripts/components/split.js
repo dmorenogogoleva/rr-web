@@ -3,7 +3,7 @@ import { replaceUrlOnDrug } from './replaceUrlOnDrug'
 
 export const split = () => {
 
-  if (window.innerWidth <= 500) {
+  if (window.innerWidth <= 1024) {
     return
   }
 

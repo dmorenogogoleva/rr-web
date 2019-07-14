@@ -3,7 +3,7 @@
   height: 100vh;
   overflow: hidden;
 
-  @media (--smallDown) {
+  @media (--largeDown) {
     flex-direction: column;
     height: auto;
   }

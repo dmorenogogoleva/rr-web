@@ -11,6 +11,10 @@
     fill: var(--color-primary);
   }
 
+  @media (--largeDown) {
+    left: 300px;
+  }
+
   @media (--smallDown) {
     display: none;
   }
