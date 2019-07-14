@@ -2,16 +2,6 @@
   z-index: 3;
 }
 
-.header__title {
-  margin-bottom: 8px;
-  position: relative;
-  font: var(--header);
-  
-  @media (--largeUp) {
-    font-size: 72px;
-  }
-}
-
 .header__author {
   white-space: nowrap;
   font: var(--author);

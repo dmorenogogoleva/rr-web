@@ -1,6 +1,7 @@
 include ./../link/link.pug
+include ./../title/title.pug
 
 mixin header
   header.header
-    h1.header__title Рахрейтен
+    +title(class="header-title")
     +link('Дарья Морено-Гоголева', 'https://t.me/iwanttobealight').header__author
