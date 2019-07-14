@@ -1,13 +1,8 @@
-@import-normalize;
+@import "normalize.css";
 @import './scaffolding/colors.css';
 @import './scaffolding/media.css';
 @import './scaffolding/fonts.css';
 @import './scaffolding/scaffolding.css';
 
-
+/* components */
 @import '../layout/layout.css'
-/* @import './components/page.css';
-@import './components/info.css';
-@import './components/text.css';
-@import './components/header.css';
-@import './components/download.css'; */

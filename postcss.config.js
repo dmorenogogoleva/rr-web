@@ -1,10 +1,10 @@
 module.exports = {
   plugins: [
     require('autoprefixer'),
-    require('postcss-normalize'),
     require('postcss-nesting'),
-    require('postcss-preset-env'),
-    require('postcss-custom-media'),
+    require('postcss-custom-media')({
+      importFrom: './src/styles/scaffolding/media.css'
+    }),
+    require('postcss-preset-env')
   ]
 }
-

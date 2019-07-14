@@ -1,4 +1,5 @@
-include ./../header/header.pug
+include ./../info/info.pug
+include ./../text/text.pug
 
 mixin page
   doctype html
@@ -11,7 +12,9 @@ mixin page
       link(rel="icon" type="image/png" sizes="32x32" href="./../icons/favicon-32x32.png")
       title Рахрейтен
       link(rel="stylesheet", href="./../styles/main.css")
+      script(defer, src="./../scripts/index.js")
     body
       main.page
-        +header()
+        +info()
+        +text()
         

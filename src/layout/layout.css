@@ -1,2 +1,6 @@
 @import './components/page/page.css';
+@import './components/info/info.css';
 @import './components/header/header.css';
+@import './components/download/download.css';
+@import './components/dragonfly/dragonfly.css';
+@import './components/text/text.css';
