@@ -4358,13 +4358,6 @@ postcss-page-break@^2.0.0:
   dependencies:
     postcss "^7.0.2"
 
-postcss-parcel-import@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-parcel-import/-/postcss-parcel-import-0.0.2.tgz#5b8448b015d48c51e4d0e3f2de561c5b4b2eed81"
-  integrity sha512-3Q0pEmgCYZCD/IOLw70OCwCG6GdEYbLx+b7AdrUazgsDQuWufpHgH7HW/kDzfZA+kwCYo2sdll+4RAMFlEapSw==
-  dependencies:
-    postcss "^6.0.16"
-
 postcss-place@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/postcss-place/-/postcss-place-4.0.1.tgz#e9f39d33d2dc584e46ee1db45adb77ca9d1dcc62"
@@ -4532,7 +4525,7 @@ postcss@6.0.1:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.16:
+postcss@^6.0.1, postcss@^6.0.14:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
