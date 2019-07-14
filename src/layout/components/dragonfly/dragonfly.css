@@ -7,9 +7,6 @@
   left: 0;
   transform: rotate(-135deg);
 
-  & path {
-    fill: var(--color-primary);
-  }
 
   @media (--largeDown) {
     left: 300px;

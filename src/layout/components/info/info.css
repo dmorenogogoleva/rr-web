@@ -1,5 +1,5 @@
 .info {
-  padding: 32px 24px 24px;
+  padding: 32px 0 24px 24px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -9,7 +9,7 @@
 
   @media (--largeDown) {
     min-height: 40vh;
-    width: 100% !important;
+    padding: 32px 24px 24px;
 
     &::after {
       position: absolute;
@@ -23,11 +23,14 @@
       z-index: 5;
     }
   }
-  
+
   @media (--smallDown) {
     padding: 32px 12px 0;
   }
-
-
 }
 
+#info {
+  @media (--largeDown) {
+    width: 100% !important;
+  }
+}
