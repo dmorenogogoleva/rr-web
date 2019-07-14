@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel ./src/index.html",
     "prebuild": "rm -rf dist",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build ./src/index.html --public-url ./",
     "lint": "node_modules/.bin/eslint index.js"
   },
   "devDependencies": {
