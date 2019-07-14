@@ -1,12 +1,11 @@
 @import-normalize;
-@parcel-import './scaffolding/colors.css';
-@parcel-import './scaffolding/media.css';
-@parcel-import './scaffolding/fonts.css';
-@parcel-import './scaffolding/mixins.css';
-@parcel-import './scaffolding/scaffolding.css';
+@import './scaffolding/colors.css';
+@import './scaffolding/media.css';
+@import './scaffolding/fonts.css';
+@import './scaffolding/scaffolding.css';
 
-@parcel-import './components/page.css';
-@parcel-import './components/info.css';
-@parcel-import './components/text.css';
-@parcel-import './components/header.css';
-@parcel-import './components/download.css';
+@import './components/page.css';
+@import './components/info.css';
+@import './components/text.css';
+@import './components/header.css';
+@import './components/download.css';

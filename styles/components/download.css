@@ -4,8 +4,13 @@
 }
 
 .download__title {
-  @mixin subheader;
   margin-bottom: 16px;
+  text-transform: lowercase;
+  font: var(--subheader);
+
+  @media (--largeUp) {
+    font-size: 48px;
+  }
 }
 
 .download__list {
@@ -13,12 +18,16 @@
 }
 
 .download__item {
-  @mixin subheader;
   margin-right: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
   position: relative;
-  @mixin link-decoration;
+  text-transform: lowercase;
+  font: var(--subheader);
+  
+  @media (--largeUp) {
+    font-size: 48px;
+  }
 
   &::before {
     content: "";
