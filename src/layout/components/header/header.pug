@@ -1,7 +1,9 @@
 include ./../link/link.pug
 include ./../title/title.pug
+include ./../author/author.pug
 
 mixin header
   header.header
     +title(class="header-title")
-    +link('Дарья Морено-Гоголева', 'https://t.me/iwanttobealight').header__author
+    a(href='https://t.me/iwanttobealight', target='_blank', rel='norreferer').header__author
+      +author()

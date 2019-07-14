@@ -3,10 +3,5 @@
 }
 
 .header__author {
-  white-space: nowrap;
-  font: var(--author);
-
-  @media (--largeUp) {
-    font-size: 36px;
-  }
+  min-height: 63px;
 }
