@@ -10,6 +10,11 @@
   overflow: scroll;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
+
+  @media (--smallDown) {
+    width: 100% !important;
+    padding: 16px 12px;
+  }
 }
 
 .text::-webkit-scrollbar { width: 0 !important }

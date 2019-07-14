@@ -10,4 +10,8 @@
   & path {
     fill: var(--color-primary);
   }
+
+  @media (--smallDown) {
+    display: none;
+  }
 }

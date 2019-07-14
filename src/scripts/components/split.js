@@ -2,6 +2,11 @@ import Split from 'split.js'
 import { replaceUrlOnDrug } from './replaceUrlOnDrug'
 
 export const split = () => {
+
+  if (window.innerWidth <= 500) {
+    return
+  }
+
   let sizes = [55, 45]
 
   if (window.location.pathname.includes('read')) {

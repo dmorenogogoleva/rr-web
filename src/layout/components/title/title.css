@@ -3,4 +3,8 @@
   max-height: 72px;
   min-width: 293px;
   min-height: 36px;
+
+  @media (--smallDown) {
+    margin-bottom: 8px;
+  }
 }
