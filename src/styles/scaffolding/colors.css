@@ -1,7 +1,11 @@
 :root {
   /* colors */
+  --red: 255;
+  --green: 210;
+  --blue: 240;
+
   --color-primary: #ffd2f0;
-  --color-primary-rgd: rgb(255, 210, 240);
-  --color-dragonfly: #bfa5f7;
+  --color-dragonfly-left: #bfa5f7;
+  --color-dragonfly: rgb(var(--red), var(--green), var(--blue));
   --color-text-primary: #2f262a;
 }
