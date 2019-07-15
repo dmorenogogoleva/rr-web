@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/read"
+  to = "/"
+  status = 200
+  force = false
