@@ -10,5 +10,11 @@
 }
 
 .header__author {
-  min-height: 63px;
+  margin-left: auto;
+  color: #06c;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    border-bottom: none;
+  }
 }
