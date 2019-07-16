@@ -16,10 +16,12 @@ export const split = () => {
   return Split(['#info', '#text'], {
     sizes,
     minSize: [0, 400],
+    cursor: 'grab',
     gutterStyle: function() {
       return {
         'z-index': '10',
         'background-color': 'var(--color-primary)',
+        cursor: 'grab',
         width: '10px'
       }
     },
