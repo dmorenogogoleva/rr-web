@@ -1,12 +1,17 @@
 :root {
   /* colors */
-  --red: 255;
-  --green: 210;
-  --blue: 240;
+  --red-primary: 255;
+  --green-primary: 210;
+  --blue-primary: 240;
+
+  --red-secondary: 191;
+  --green-secondary: 165;;
+  --blue-secondary: 255;
 
   /* --color-primary: #ffd2f0; */
+  /* --color-secondary: #bfa5f7; */
   --color-primary: var(--color-dragonfly);
-  --color-secondary: #bfa5f7;
-  --color-dragonfly: rgb(var(--red), var(--green), var(--blue));
+  --color-secondary: rgb(var(--red-secondary), var(--green-secondary), var(--blue-secondary));
+  --color-dragonfly: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
   --color-text-primary: #2f262a;
 }

@@ -1,5 +1,5 @@
 import { split } from './components/split'
-import { setDragonflyColor } from './components/setDragonflyColor'
+import { setPrimaryColor } from './components/setPrimaryColor'
 
 split()
-setDragonflyColor()
+setPrimaryColor()

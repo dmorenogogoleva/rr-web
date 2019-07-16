@@ -2,7 +2,7 @@ import { getRed } from './getRed'
 import { getGreen } from './getGreen'
 import { getBlue } from './getBlue'
 
-export const setDragonflyColor = () => {
+export const setPrimaryColor = () => {
   const info = document.querySelector('#info')
   const root = document.documentElement
 
@@ -17,9 +17,9 @@ export const setDragonflyColor = () => {
     const green = getGreen(width, elementWidth)
     const blue = getBlue(width, elementWidth)
 
-    root.style.setProperty('--red', red)
-    root.style.setProperty('--green', green)
-    root.style.setProperty('--blue', blue)
+    root.style.setProperty('--red-primary', red)
+    root.style.setProperty('--green-primary', green)
+    root.style.setProperty('--blue-primary', blue)
   })
 
   return observer.observe(info)
