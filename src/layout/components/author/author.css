@@ -1,10 +1,4 @@
 .author {
   min-width: 282px;
   min-height: 21px;
-
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-
-  &:hover {
-    border-bottom: 1px solid transparent;
-  }
 }
