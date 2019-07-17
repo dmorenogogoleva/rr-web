@@ -29,6 +29,7 @@
   overflow-x: scroll;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
+  scrollbar-width: none;
 
   @media (--smallDown) {
     padding: 0 12px 16px;
