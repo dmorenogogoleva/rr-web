@@ -25,7 +25,8 @@
 
 .download__list {
   display: flex;
-  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: scroll;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
 
