@@ -1,7 +1,7 @@
 .title {
   min-width: 293px;
   min-height: 36px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 
   @media (--largeDown) {
     margin-bottom: 8px;

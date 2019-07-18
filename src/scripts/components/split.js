@@ -22,7 +22,7 @@ export const split = () => {
         'z-index': '10',
         'background-color': 'var(--color-primary)',
         cursor: 'grab',
-        width: '10px'
+        width: '16px'
       }
     },
     onDragEnd: function(dimension) {

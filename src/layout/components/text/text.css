@@ -4,7 +4,7 @@
   margin-bottom: -24px;
   position: relative;
   z-index: 5;
-  background-color: #fff;
+  background-color: var(--bg-color);
 
   /* disable-scroll */
   overflow: scroll;

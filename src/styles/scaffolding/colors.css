@@ -10,8 +10,21 @@
 
   /* --color-primary: #ffd2f0; */
   /* --color-secondary: #bfa5f7; */
-  --color-primary: var(--color-dragonfly);
+  --color-primary: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
   --color-secondary: rgb(var(--red-secondary), var(--green-secondary), var(--blue-secondary));
   --color-dragonfly: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
   --color-text-primary: #2f262a;
+  --bg-color: hsla(0,0%,100%,0.88);
+  --color-title: var(--color-text-primary);
+  --bg-selection: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
+  --color-selectioin: var(--color-text-primary);
+
+  @media (prefers-color-scheme: dark) {
+    --color-text-primary: hsla(0,0%,100%,0.88);
+    --bg-color: #282c35;
+    --color-title: var(--color-primary);
+    --color-dragonfly: #000;
+    --bg-selection: var(--color-text-primary);
+    --color-selectioin: var(--bg-color);
+}
 }

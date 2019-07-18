@@ -29,9 +29,11 @@ body {
 
   font: var(--text);
   color: var(--color-text-primary);
+  background-color: var(--bg-color);
 }
 
 ::selection {
-  background-color: var(--color-primary);
+  background-color: var(--bg-selection);
+  color: var(--color-selectioin);
 }
 
