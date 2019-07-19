@@ -3,6 +3,7 @@
 @import './scaffolding/media.css';
 @import './scaffolding/fonts.css';
 @import './scaffolding/scaffolding.css';
+@import './scaffolding/gutter.css';
 
 /* components */
 @import '../layout/layout.css'

@@ -1,0 +1,41 @@
+.gutter {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: var(--color-border); 
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: var(--color-border); 
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  
+    &::before {
+      opacity: 1;
+    }
+  
+  }
+}

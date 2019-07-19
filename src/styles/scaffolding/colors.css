@@ -14,10 +14,11 @@
   --color-secondary: rgb(var(--red-secondary), var(--green-secondary), var(--blue-secondary));
   --color-dragonfly: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
   --color-text-primary: #2f262a;
-  --bg-color: hsla(0,0%,100%,0.88);
+  --bg-color: #fff;
   --color-title: var(--color-text-primary);
   --bg-selection: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
   --color-selectioin: var(--color-text-primary);
+  --color-border: rgba(40, 44, 53, 0.3);
 
   @media (prefers-color-scheme: dark) {
     --color-text-primary: hsla(0,0%,100%,0.88);
