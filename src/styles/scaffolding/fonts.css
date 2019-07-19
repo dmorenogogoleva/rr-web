@@ -28,16 +28,19 @@
 :root {
   /* fonts */
   --fontFamily: 'SourseSansPro-Regular', sans-serif;
+  --fontFamily-bold: 'SourseSansPro-Regular', sans-serif;
   --fontFamily-header-medium: 'Montserrat-Medium', 'Helvetica Neue', sans-serif;
   --fontFamily-header-regular: 'Montserrat-Regular', 'Helvetica Neue', sans-serif;
 
   --header-font-size: calc(52px + 20 * ((100vw - 320px) / 960));
   --author-font-size: calc(22px + 14 * ((100vw - 320px) / 960));
   --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
+  --label-font-size: 24px;
   --text-font-size: 18px;
 
   --header: var(--header-font-size) / 1 var(--fontFamily-header-medium);
   --author: var(--author-font-size) / 1 var(--fontFamily-header-regular);
   --subheader: var(--subheader-font-size) / 1 var(--fontFamily-header-regular);
+  --label: var(--label-font-size) / 1 var(--fontFamily-bold);
   --text: var(--text-font-size) / 1.5 var(--fontFamily);
 }

@@ -5,28 +5,55 @@
   position: relative;
   z-index: 5;
   background-color: var(--bg-color);
-
   /* disable-scroll */
   overflow: scroll;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
+  scrollbar-width: none;
 
   @media (--largeDown) {
     width: 100% !important;
   }
-  
   @media (--smallDown) {
     padding: 16px 12px;
   }
 }
 
-.text::-webkit-scrollbar { width: 0 !important }
+.text::-webkit-scrollbar {
+  width: 0 !important
+}
 
-.text__paragraph {
-  text-align: justify;
+.text__wrapper {
+  max-width: 710px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.text blockquote {
+  margin: 0 0 40px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text blockquote p {
+  text-align: right;
+}
+
+.text h2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  font: var(--label);
+}
+
+.text p {
+  font: var(--text);
+  text-indent: 1.8em;
 
   @media (--largeDown) {
     max-width: 800px;
     margin-left: auto;
   }
 }
+
