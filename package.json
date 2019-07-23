@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./src/layout/index.pug",
-    "prebuild": "rm -rf dist",
+    "prebuild": "rm -rf dist && yarn convert",
+    "convert": "rm -rf text && mkdir text && node convert.js",
     "build": "parcel build ./src/layout/index.pug --public-url ./"
   },
   "devDependencies": {
@@ -14,7 +15,11 @@
     "jstransformer-markdown-it": "^2.1.0",
     "markdown": "^0.5.0",
     "marked": "^0.7.0",
+    "mdpdf": "^2.0.4",
+    "node-latex": "^2.6.0",
+    "node-pandoc": "^0.3.0",
     "parcel-bundler": "^1.12.3",
+    "pdflatex": "^0.0.1",
     "postcss-custom-media": "^7.0.8",
     "postcss-import": "^12.0.1",
     "postcss-nesting": "^7.0.0",
