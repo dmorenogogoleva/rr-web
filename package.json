@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel ./src/layout/index.pug",
     "prebuild": "rm -rf dist && yarn convert",
-    "convert": "rm -rf dist/text && mkdir dist/text && node convert.js",
+    "convert": "rm -rf src/text && mkdir src/text && node convert.js",
     "build": "parcel build ./src/layout/index.pug --public-url ./"
   },
   "devDependencies": {

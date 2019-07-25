@@ -3,7 +3,7 @@ const path = require('path');
 
 let options = {
   source: path.join(__dirname, '../readme.md'),
-  destination: path.join(__dirname, '../dist/text/rachreiten.pdf'),
+  destination: path.join(__dirname, '../src/text/rachreiten.pdf'),
   // styles: path.join(__dirname, 'md-styles.css'),
   pdf: {
     format: 'A4',
