@@ -3,8 +3,9 @@ var nodePandoc = require('node-pandoc');
 var source = './readme.md';
 
 
-var toDocx = ['-f', 'markdown', '-t', 'docx', '-o', 'text/rachreiten.docx'];
-var toEpub = ['-f', 'markdown', '-t', 'epub', '-o', 'text/rachreiten.epub'];
+var toDocx = ['-f', 'markdown', '-t', 'docx', '-o', 'dist/text/rachreiten.docx'];
+var toEpub = ['-f', 'markdown', '-t', 'epub', '-o', 'dist/text/rachreiten.epub'];
+var toFb2 = ['-f', 'markdown', '-t', 'fb2', '-o', 'dist/text/rachreiten.fb2'];
 
 var errorHandler = function (err, result) {
 
@@ -21,6 +22,7 @@ module.exports = {
   execute() {
     nodePandoc(source, toEpub, errorHandler);
     nodePandoc(source, toDocx, errorHandler);
+    nodePandoc(source, toFb2, errorHandler);
   }
 };
 
