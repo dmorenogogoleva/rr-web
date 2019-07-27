@@ -5,7 +5,7 @@ export const getScrollPosition = () => {
 
   text.onscroll = throttle(function () {
     localStorage.setItem('scrollPosition', text.scrollTop);
-  }, 300)
+  }, 100)
 
   window.onload = () => {
     text.scrollTop = +(localStorage.getItem('scrollPosition')) || 0;
