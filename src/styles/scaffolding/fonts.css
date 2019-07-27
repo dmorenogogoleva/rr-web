@@ -24,11 +24,19 @@
   src: url('./../../fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'SourceSansPro-SemiBold';
+  font-style: normal;
+  font-display: block;
+  font-weight: 500;
+  src: url('./../../fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
 
 :root {
   /* fonts */
   --fontFamily: 'SourseSansPro-Regular', sans-serif;
-  --fontFamily-bold: 'SourseSansPro-Regular', sans-serif;
+  --fontFamily-bold: 'SourceSansPro-SemiBold', sans-serif;
   --fontFamily-header-medium: 'Montserrat-Medium', 'Helvetica Neue', sans-serif;
   --fontFamily-header-regular: 'Montserrat-Regular', 'Helvetica Neue', sans-serif;
 
