@@ -1,11 +1,13 @@
+import { throttle } from './throttle'
+
 export const getScrollPosition = () => {
   const text = document.querySelector('#text');
-  let scroll = localStorage.getItem('scrollPosition');
 
-  text.onscroll = function () {
-    scroll = text.scrollTop;
-    localStorage.setItem('scrollPosition', scroll);
+  text.onscroll = throttle(function () {
+    localStorage.setItem('scrollPosition', text.scrollTop);
+  }, 300)
+
+  window.onload = () => {
+    text.scrollTop = +(localStorage.getItem('scrollPosition')) || 0;
   }
-
-  text.scrollTop = scroll;
 }
