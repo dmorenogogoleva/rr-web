@@ -31,7 +31,7 @@
 }
 
 .text blockquote {
-  margin: 0 0 40px 0;
+  margin: 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -43,13 +43,12 @@
 .text h2 {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 24px;
+  margin: 40px 0 24px;
   font: var(--label);
 }
 
 .text p {
   font: var(--text);
-  text-indent: 1.8em;
 
   @media (--largeDown) {
     max-width: 800px;
