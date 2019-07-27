@@ -7,9 +7,7 @@
   background-color: var(--bg-color);
   /* disable-scroll */
   overflow: scroll;
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+
 
   @media (--largeDown) {
     width: 100% !important;
@@ -19,9 +17,6 @@
   }
 }
 
-.text::-webkit-scrollbar {
-  width: 0 !important
-}
 
 .text__wrapper {
   max-width: 710px;
@@ -47,8 +42,18 @@
   font: var(--label);
 }
 
+.text h3 {
+  text-align: right;
+  font: var(--text);
+  margin: 16px 0 0 0;
+}
+
 .text p {
   font: var(--text);
+
+  &:last-of-type {
+    padding-bottom: 24px;
+  }
 
   @media (--largeDown) {
     max-width: 800px;
