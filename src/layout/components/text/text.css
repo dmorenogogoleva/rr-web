@@ -52,7 +52,7 @@
   font: var(--text);
 
   &:last-of-type {
-    padding-bottom: 24px;
+    padding-bottom: 40px;
   }
 
   @media (--largeDown) {
