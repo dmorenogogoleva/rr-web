@@ -1,5 +1,11 @@
 .gutter {
   position: relative;
+  transition: background-color 0.2s;
+
+
+  @media (--largeDown) {
+    display: none;
+  }
 
   &::after {
     content: "";
