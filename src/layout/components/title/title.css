@@ -2,6 +2,7 @@
   min-width: 293px;
   min-height: 36px;
   margin-bottom: 16px;
+  transition: fill 0.2s;
 
   @media (--largeDown) {
     margin-bottom: 8px;
