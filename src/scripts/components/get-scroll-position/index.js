@@ -1,0 +1,1 @@
+export { getScrollPosition } from './getScrollPosition'

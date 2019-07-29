@@ -35,6 +35,10 @@
   text-align: right;
 }
 
+.text hr {
+  visibility: hidden;
+}
+
 .text h2 {
   display: flex;
   justify-content: flex-end;
@@ -57,7 +61,6 @@
 
   @media (--largeDown) {
     max-width: 800px;
-    margin-left: auto;
   }
 }
 
