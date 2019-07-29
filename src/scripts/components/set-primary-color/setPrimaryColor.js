@@ -1,8 +1,8 @@
 import ResizeObserver from 'resize-observer-polyfill';
-
 import { getRed } from './getRed'
 import { getGreen } from './getGreen'
 import { getBlue } from './getBlue'
+
 
 export const setPrimaryColor = () => {
   const info = document.querySelector('#info')

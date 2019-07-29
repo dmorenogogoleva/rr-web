@@ -1,0 +1,3 @@
+export {
+  setPrimaryColor
+} from './setPrimaryColor'
