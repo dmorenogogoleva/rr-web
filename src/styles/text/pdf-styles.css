@@ -1,0 +1,17 @@
+body {
+  padding: 40px 24px;
+}
+
+h2 {
+  font: Georgia, Times New Roman, serif;
+  font-size: 24px;
+}
+
+hr {
+  visibility: hidden;
+}
+
+p {
+  font: Georgia, Times New Roman, serif;
+  font-size: 18px;
+}
