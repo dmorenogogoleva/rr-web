@@ -45,9 +45,15 @@
   position: relative;
   text-transform: lowercase;
   font: var(--subheader);
-  
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+
   @media (--largeUp) {
     font-size: 48px;
+  }
+
+  &:hover {
+    border-bottom: 2px solid var(--color-text-primary);
   }
 
   &::before {
