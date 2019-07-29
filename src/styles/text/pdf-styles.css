@@ -1,10 +1,13 @@
 body {
   padding: 40px 24px;
+  color: var(--color-text-primary);
+  color: #000;
 }
 
 h2 {
   font: Georgia, Times New Roman, serif;
   font-size: 24px;
+  color: #000;
 }
 
 hr {
@@ -14,4 +17,5 @@ hr {
 p {
   font: Georgia, Times New Roman, serif;
   font-size: 18px;
+  color: #000;
 }

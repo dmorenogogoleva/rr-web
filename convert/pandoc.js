@@ -3,7 +3,7 @@ var nodePandoc = require('node-pandoc');
 var source = './readme.md';
 
 
-var toDocx = ['-f', 'markdown', '-t', 'docx', '-o', 'src/text/rachreiten.docx'];
+var toDocx = ['-f', 'markdown', '--reference-doc', 'src/reference.docx', '-t', 'docx',  '-o', 'src/text/rachreiten.docx'];
 var toEpub = ['-f', 'markdown', '-t', 'epub', '-o', 'src/text/rachreiten.epub'];
 var toFb2 = ['-f', 'markdown', '-t', 'fb2', '-o', 'src/text/rachreiten.fb2'];
 
