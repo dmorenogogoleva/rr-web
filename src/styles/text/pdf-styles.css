@@ -2,6 +2,7 @@ body {
   padding: 40px 24px;
   color: var(--color-text-primary);
   color: #000;
+  color: pink;
 }
 
 h2 {
