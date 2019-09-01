@@ -30,7 +30,7 @@ const convert = () => {
       content
     };
   
-    new Epub(option, "text/rachreiten.epub");
+    new Epub(option, "text/rachreiten.epub").catch(er => console.log(`error: ${er}`));
   })
 }
 

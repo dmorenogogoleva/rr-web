@@ -18,8 +18,8 @@ var errorHandler = function (err, result) {
 module.exports = {
   name: 'pandoc',
   execute() {
-    nodePandoc(source, toFb2, errorHandler);
     nodePandoc(source, toHtml, errorHandler);
+    nodePandoc(source, toFb2, errorHandler);
   }
 };
 
