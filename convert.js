@@ -7,4 +7,4 @@ pandoc.execute()
 
 setTimeout(() => {
   convertToEpub.execute()
-}, 1000)
+}, 5000)
