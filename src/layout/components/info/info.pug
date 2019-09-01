@@ -1,10 +1,10 @@
 include ./../dragonfly/dragonfly.pug
 include ./../header/header.pug
-//- include ./../download/download.pug
+include ./../download/download.pug
 
 mixin info
   div(id="info")
     section.info
       +dragonfly()
       +header()
-      //- +download()
+      +download()
