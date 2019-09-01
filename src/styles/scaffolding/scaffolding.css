@@ -24,7 +24,7 @@ body {
   & a {
     text-decoration: none;
     color: inherit;
-    line-height: 1;
+    line-height: 0;
   }
 
   font: var(--text);
