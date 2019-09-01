@@ -5,4 +5,5 @@ include ./../author/author.pug
 mixin header
   header.header
     +title(class="header-title")
-    +author()
+    a(href="https://t.me/iwanttobealight", target="_blank", rel="noreferrer").author
+      +author()
