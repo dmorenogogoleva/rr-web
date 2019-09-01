@@ -37,7 +37,7 @@
 .download__list::-webkit-scrollbar { width: 0 !important }
 
 .download__item {
-  margin-right: 16px;
+  margin-right: 24px;
   cursor: pointer;
   transition: background-color 0.3s;
   position: relative;
