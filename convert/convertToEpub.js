@@ -15,13 +15,14 @@ const convert = () => {
       const clean = el.replace(/[^\x09\x0A\x0D\x20-\xFF\x85\xA0-\uD7FF\uE000-\uFDCF\uFDE0-\uFFFD]/gm, '')
 
       return {
-        data: clean
+        data: clean,
       }
     })
   
     const option = {
       title: "Рахрейтен",
       css: '*{font-style: normal;}',
+      tocTitle: '',
       // fonts: ['/src/fonts/Montserrat-Medium.ttf', '/src/fonts/Montserrat-Regular.ttf', '/src/fonts/SourceSansPro-Regular.ttf', '/src/fonts/SourceSansPro-SemiBold.ttf'],
       lang: 'ru',
       author: "Дарья Морено-Гоголева",

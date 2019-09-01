@@ -4,7 +4,7 @@ const path = require('path');
 let options = {
   source: path.join(__dirname, '../readme.md'),
   destination: path.join(__dirname, '../text/rachreiten.pdf'),
-  styles: path.join(__dirname, '../src/styles/text/pdf-styles.css'),
+  styles: path.join(__dirname, './pdf-styles.css'),
   pdf: {
     format: 'A4',
     orientation: 'portrait'

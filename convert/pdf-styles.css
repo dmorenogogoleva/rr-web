@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-display: block;
+  font-weight: 500;
+  src: url('./../src/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url('./../src/fonts/Montserrat-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'SourseSansPro-Regular';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url('./../src/fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-SemiBold';
+  font-style: normal;
+  font-display: block;
+  font-weight: 500;
+  src: url('./../src/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
+
+
+body {
+  padding: 40px 24px;
+  color: #2f262a;
+}
+
+h2 {
+  font: SourceSansPro-SemiBold, Times New Roman, serif;
+  font-size: 24px;
+  color: #2f262a;
+}
+
+hr {
+  visibility: hidden;
+}
+
+p {
+  font: SourseSansPro-Regular, Times New Roman, serif;
+  font-size: 18px;
+  color: #2f262a;
+}
