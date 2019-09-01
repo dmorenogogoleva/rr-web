@@ -2,8 +2,8 @@ var nodePandoc = require('node-pandoc');
 
 var source = './readme.md';
 
-var toFb2 = ['-f', 'markdown', '-t', 'fb2', '-o', 'text/rachreiten.fb2'];
-var toHtml = ['-f', 'markdown', '-t', 'html', '-o', 'text/rachreiten.html'];
+var toFb2 = ['-f', 'markdown', '-t', 'fb2', '-o', '/text/rachreiten.fb2'];
+var toHtml = ['-f', 'markdown', '-t', 'html', '-o', '/text/rachreiten.html'];
 
 var errorHandler = function (err, result) {
 
