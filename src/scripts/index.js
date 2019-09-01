@@ -7,3 +7,5 @@ split()
 setPrimaryColor()
 getScrollPosition()
 setFontSize()
+
+console.log('связаться: https://t.me/iwanttobealight')
