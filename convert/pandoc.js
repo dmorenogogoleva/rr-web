@@ -2,6 +2,7 @@ var nodePandoc = require('node-pandoc');
 
 var source = './readme.md';
 
+var toEpub = ['-o', 'text/rachreiten.epub', 'readme.md', '--metadata-file=meta.yml', `--epub-cover-image=./cover/${Math.random() > 0.5 ? 1 : 2}.jpg`, '--css=../text/rachreiten.pdf']
 var toFb2 = ['-f', 'markdown', '-t', 'fb2', '-o', 'text/rachreiten.fb2'];
 var toHtml = ['-f', 'markdown', '-t', 'html', '-o', 'text/rachreiten.html'];
 
@@ -20,6 +21,7 @@ module.exports = {
   execute() {
     nodePandoc(source, toHtml, errorHandler);
     nodePandoc(source, toFb2, errorHandler);
+    nodePandoc(source, toEpub, errorHandler);
   }
 };
 
