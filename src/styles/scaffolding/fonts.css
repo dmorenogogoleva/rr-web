@@ -43,8 +43,10 @@
   --header-font-size: calc(52px + 20 * ((100vw - 320px) / 960));
   --author-font-size: calc(22px + 14 * ((100vw - 320px) / 960));
   --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
-  --label-font-size: 24px;
-  --text-font-size: 18px;
+  /* --label-font-size: 24px; */
+  /* --text-font-size: 18px; */
+  --text-font-size: var(--text-size);
+  --label-font-size: var(--label-size);
 
   --header: var(--header-font-size) / 1 var(--fontFamily-header-medium);
   --author: var(--author-font-size) / 1 var(--fontFamily-header-regular);

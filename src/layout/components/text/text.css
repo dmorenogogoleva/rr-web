@@ -18,7 +18,6 @@
 }
 
 .text__wrapper {
-  max-width: 710px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
