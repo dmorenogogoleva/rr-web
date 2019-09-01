@@ -3,8 +3,8 @@ const convertToPdf = require('./convert/convertToPdf');
 const convertToEpub = require('./convert/convertToEpub');
 
 convertToPdf.execute()
-// pandoc.execute()
+pandoc.execute()
 
-// setTimeout(() => {
-//   convertToEpub.execute()
-// }, 5000)
+setTimeout(() => {
+convertToEpub.execute()
+}, 5000)
