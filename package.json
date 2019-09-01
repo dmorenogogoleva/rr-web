@@ -5,8 +5,6 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./src/layout/index.pug",
-    "prebuild": "rm -rf dist && yarn convert",
-    "convert": "rm -rf text && mkdir text && node convert.js",
     "build": "parcel build ./src/layout/index.pug --public-url ./"
   },
   "devDependencies": {
