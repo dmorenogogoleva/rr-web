@@ -15,7 +15,7 @@ export const split = () => {
 
   return Split(['#info', '#text'], {
     sizes,
-    minSize: [0, 400],
+    minSize: [0, window.innerWidth / 3],
     cursor: 'grab',
     gutterStyle: function() {
       return {
