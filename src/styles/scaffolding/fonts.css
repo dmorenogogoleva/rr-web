@@ -43,8 +43,8 @@
   --header-font-size: calc(52px + 20 * ((100vw - 320px) / 960));
   --author-font-size: calc(22px + 14 * ((100vw - 320px) / 960));
   --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
-  /* --label-font-size: 24px; */
-  /* --text-font-size: 18px; */
+  --label-font-size-fixed: 24px;
+  --text-font-size-fixed: 18px;
   --text-font-size: var(--text-size);
   --label-font-size: var(--label-size);
 
@@ -53,4 +53,7 @@
   --subheader: var(--subheader-font-size) / 1 var(--fontFamily-header-regular);
   --label: var(--label-font-size) / 1 var(--fontFamily-bold);
   --text: var(--text-font-size) / 1.5 var(--fontFamily);
+
+  --label-fixed: var(--label-font-size-fixed) / 1 var(--fontFamily-bold);
+  --text--fixed: var(--text-font-size-fixed) / 1.5 var(--fontFamily);
 }

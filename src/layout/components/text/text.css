@@ -7,8 +7,6 @@
   background-color: var(--bg-color);
   /* disable-scroll */
   overflow: scroll;
-
-
   @media (--largeDown) {
     width: 100% !important;
   }
@@ -42,6 +40,9 @@
   justify-content: flex-end;
   margin: 40px 0 24px;
   font: var(--label);
+  @media (--largeDown) {
+    font: var(--label-fixed);
+  }
 }
 
 .text h3 {
@@ -52,13 +53,13 @@
 
 .text p {
   font: var(--text);
-
+  @media (--largeDown) {
+    font: var(--text-fixed);
+  }
   &:last-of-type {
     padding-bottom: 40px;
   }
-
   @media (--largeDown) {
     max-width: 800px;
   }
 }
-
