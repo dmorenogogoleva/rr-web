@@ -53,13 +53,12 @@
 
 .text p {
   font: var(--text);
-  @media (--largeDown) {
-    font: var(--text-fixed);
-  }
   &:last-of-type {
     padding-bottom: 40px;
   }
   @media (--largeDown) {
+    font: var(--text-fixed);
+    font-size: var(--text-font-size-fixed);
     max-width: 800px;
   }
 }

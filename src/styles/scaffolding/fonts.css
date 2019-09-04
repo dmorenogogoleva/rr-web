@@ -44,7 +44,7 @@
   --author-font-size: calc(22px + 14 * ((100vw - 320px) / 960));
   --subheader-font-size: calc(32px + 16 * ((100vw - 320px) / 960));
   --label-font-size-fixed: 24px;
-  --text-font-size-fixed: 18px;
+  --text-font-size-fixed: 20px;
   --text-font-size: var(--text-size);
   --label-font-size: var(--label-size);
 

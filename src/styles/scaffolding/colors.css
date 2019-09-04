@@ -30,5 +30,10 @@
     --color-dragonfly: #000;
     --bg-selection: var(--color-text-primary);
     --color-selectioin: var(--bg-color);
+
+
+    @media (--smallDown) {
+      --color-primary: var(--color-secondary);
+    }
 }
 }
