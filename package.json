@@ -30,7 +30,6 @@
     "resize-observer-polyfill": "^1.5.1"
   },
   "dependencies": {
-    "epub-gen": "^0.1.0",
     "normalize.css": "^8.0.1",
     "split.js": "^1.5.11"
   }
