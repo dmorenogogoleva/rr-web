@@ -2,7 +2,23 @@ var nodePandoc = require('node-pandoc');
 
 var source = './readme.md';
 
-var toEpub = ['-o', 'text/rachreiten.epub', 'readme.md', '--metadata-file=meta.yml', `--epub-cover-image=src/cover/${Math.random() > 0.5 ? 1 : 2}.jpg`]
+var getCoverNum = function() {
+  const num = Math.random();
+  
+  if (num < 0.33) {
+    return 1
+  }
+
+  if (num < 0.66) {
+    return 2
+  }
+
+  if (num < 1) {
+    return 3
+  }
+}
+
+var toEpub = ['-o', 'text/rachreiten.epub', 'readme.md', '--metadata-file=meta.yml', `--epub-cover-image=src/cover/${getCoverNum()}.jpg`]
 var toFb2 = ['-f', 'markdown', 'readme.md', '-t', 'fb2', '-o', './text/rachreiten.fb2'];
 var toHtml = ['-f', 'markdown', '-t', 'html', '-o', './text/rachreiten.html'];
 
