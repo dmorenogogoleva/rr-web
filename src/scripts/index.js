@@ -8,4 +8,4 @@ setPrimaryColor()
 getScrollPosition()
 setFontSize()
 
-console.log('связаться: https://t.me/iwanttobealight')
+console.log('связаться: https://t.me/rrtn_art')
