@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prebuild": "rm -rf dist && yarn convert",
+    "prebuild": "yarn convert",
     "convert": "rm -rf text && mkdir text && node convert.js",
     "dev": "parcel ./src/layout/index.pug",
     "build": "parcel build ./src/layout/index.pug --public-url ./"
