@@ -10,13 +10,9 @@ jobs:
     name: deploy
     runs-on: macOS-latest
     steps:
-      - name: Install Dependencies
-        uses: actions/checkout@v1
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
         with:
           node-version: 10.x
-        run: yarn install
-      - name: Build
-        uses: actions/checkout@v1
-        with:
-          node-version: 10.x
-        run: yarn build
+      - run: yarn install
+      - run: yarn build
