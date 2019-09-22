@@ -1,0 +1,16 @@
+name: Rachreiten the book
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: deploy
+    runs-on: macOS-latest
+    steps:
+      - name: Install Dependencies
+        - run: |
+            yarn install 
+            yarn build
