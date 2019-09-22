@@ -11,6 +11,6 @@ jobs:
     runs-on: macOS-latest
     steps:
       - name: Install Dependencies
-        - run: |
+          run: |
             yarn install 
             yarn build
