@@ -6,16 +6,11 @@ on:
       - master
 
 jobs:
-  install:
-    name: install
+  build:
+    name: deploy
     runs-on: macOS-latest
     steps:
       - name: Install Dependencies
-        run: yarn install
-  build:
-    needs: install
-    name: build
-    runs-on: macOS-latest
-    steps:
+        run: npm install
       - name: Build
-        run: yarn build
+        run: npm run build
