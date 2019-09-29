@@ -20,14 +20,14 @@
     "marked": "^0.7.0",
     "mdpdf": "^2.0.4",
     "node-latex": "^2.6.2",
-    "node-pandoc": "^0.3.0",
     "parcel-bundler": "^1.12.3",
     "pdflatex": "^0.0.1",
     "postcss-custom-media": "^7.0.8",
     "postcss-import": "^12.0.1",
     "postcss-nesting": "^7.0.1",
     "pug": "^2.0.4",
-    "resize-observer-polyfill": "^1.5.1"
+    "resize-observer-polyfill": "^1.5.1",
+    "simple-pandoc": "^0.2.0"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",

@@ -4536,11 +4536,6 @@ node-libs-browser@^2.0.0:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-pandoc@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/node-pandoc/-/node-pandoc-0.3.0.tgz#d46577cd0a72af415353fcb8a0117adb6242f9c8"
-  integrity sha1-1GV3zQpyr0FTU/y4oBF622JC+cg=
-
 node-pre-gyp@^0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.12.0.tgz#39ba4bb1439da030295f899e3b520b7785766149"
@@ -6368,6 +6363,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+simple-pandoc@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/simple-pandoc/-/simple-pandoc-0.2.0.tgz#1f0deb375f8e930078a7f3e2f17b76e08b5fc6f9"
+  integrity sha512-M0+el5T8IQIDF5r1mM+OtRQvRas+fsmEG8T6+/4wWdIZXQhpQU08C7XT7E51prkqyjfnmRJGGI2QFFJZE0UB/Q==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
