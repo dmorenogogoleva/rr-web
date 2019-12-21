@@ -11,7 +11,8 @@
 
   --text-size: 18px;
 
-  /* --color-primary: #ffd2f0; */
+  --color-pink: #ffd2f0;
+  --color-printed-text: #004040;
   /* --color-secondary: #bfa5f7; */
   --color-primary: rgb(var(--red-primary), var(--green-primary), var(--blue-primary));
   --color-secondary: rgb(var(--red-secondary), var(--green-secondary), var(--blue-secondary));
