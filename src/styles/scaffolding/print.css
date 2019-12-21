@@ -1,0 +1,37 @@
+@media print {
+ * {
+   color: var(--color-printed-text);
+ }
+
+ p {
+   font-size: 16px;
+   line-height: 1.4;
+   background-color: #fff !important;
+ }
+
+ h2 {
+   font-size: 20px;
+ }
+
+ h3 {
+   font-size: 18px !important;
+}
+
+ svg,
+ svg path {
+   fill: var(--color-printed-text);
+ }
+
+ .dragonfly,
+ .dragonfly path {
+   fill: var(--color-pink);
+ }
+
+ .download {
+   display: none;
+ }
+}
+
+@page {
+  margin: 2cm;
+}
