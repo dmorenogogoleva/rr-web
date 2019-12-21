@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "convert": "rm -rf text && mkdir text && node convert.js",
     "dev": "parcel ./src/layout/index.pug",
+    "convert": "rm -rf text && mkdir text && node convert.js",
     "build": "parcel build ./src/layout/index.pug --public-url ./"
   },
   "devDependencies": {
