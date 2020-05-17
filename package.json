@@ -23,7 +23,8 @@
     "postcss-nesting": "^7.0.1",
     "pug": "^2.0.4",
     "resize-observer-polyfill": "^1.5.1",
-    "simple-pandoc": "^0.2.0"
+    "simple-pandoc": "^0.2.0",
+    "stylus": "^0.54.7"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",

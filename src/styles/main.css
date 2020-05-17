@@ -1,9 +1,8 @@
-@import "normalize.css";
-@import './scaffolding/colors.css';
-@import './scaffolding/media.css';
-@import './scaffolding/fonts.css';
-@import './scaffolding/scaffolding.css';
-@import './scaffolding/gutter.css';
+@import '../styles/scaffolding/colors.css';
+@import '../styles/scaffolding/media.css';
+@import '../styles/scaffolding/fonts.css';
+@import '../styles/scaffolding/scaffolding.css';
+@import '../styles/scaffolding/gutter.css';
 
 /* components */
 @import '../layout/layout.css'
