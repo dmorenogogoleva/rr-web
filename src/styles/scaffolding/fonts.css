@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Montserrat-Medium';
   font-style: normal;
-  font-display: block;
+  font-display: swap;
   font-weight: 500;
   src: url('./../../fonts/Montserrat-Medium.ttf') format('truetype');
 }
@@ -10,7 +10,7 @@
 @font-face {
   font-family: 'Montserrat-Regular';
   font-style: normal;
-  font-display: block;
+  font-display: swap;
   font-weight: 400;
   src: url('./../../fonts/Montserrat-Regular.ttf') format('truetype');
 
@@ -19,7 +19,7 @@
 @font-face {
   font-family: 'SourseSansPro-Regular';
   font-style: normal;
-  font-display: block;
+  font-display: swap;
   font-weight: 400;
   src: url('./../../fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
@@ -27,7 +27,7 @@
 @font-face {
   font-family: 'SourceSansPro-SemiBold';
   font-style: normal;
-  font-display: block;
+  font-display: swap;
   font-weight: 500;
   src: url('./../../fonts/SourceSansPro-SemiBold.ttf') format('truetype');
 }
