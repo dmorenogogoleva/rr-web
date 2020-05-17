@@ -27,7 +27,6 @@
     "stylus": "^0.54.7"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1",
     "split.js": "^1.5.11"
   },
   "husky": {
