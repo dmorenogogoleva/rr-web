@@ -25,7 +25,7 @@
   --color-border: rgba(40, 44, 53, 0.3);
 
   @media (prefers-color-scheme: dark) {
-    --color-text-primary: hsla(0,0%,100%,1);
+    --color-text-primary: hsla(0,0%,100%,0.88);
     --bg-color: #282c35;
     --color-title: var(--color-primary);
     --color-dragonfly: #000;
