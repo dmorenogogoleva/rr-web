@@ -24,7 +24,7 @@
     "pug": "^2.0.4",
     "resize-observer-polyfill": "^1.5.1",
     "simple-pandoc": "^0.2.0",
-    "stylus": "^0.54.7"
+    "stylus": "^0.54.8"
   },
   "dependencies": {
     "split.js": "^1.5.11"
