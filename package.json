@@ -27,7 +27,7 @@
     "stylus": "^0.54.7"
   },
   "dependencies": {
-    "split.js": "^1.5.11"
+    "split.js": "^1.6.3"
   },
   "husky": {
     "hooks": {
