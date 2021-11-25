@@ -3,3 +3,4 @@ const convertToPdf = require('./convert/convertToPdf');
 
 convertToPdf.execute();
 pandoc.execute();
+console.log('hello')
